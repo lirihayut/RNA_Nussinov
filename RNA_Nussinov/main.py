@@ -19,6 +19,11 @@ def main():
     print(f"RNA Sequence:        {seq}")
     print(f"Predicted Structure: {structure}")
     print(f"Max Base Pairs:      {max_pairs}")
+    
+    # --- FIX ADDED HERE ---
+    # This line holds the window open until the user hits Enter.
+    input("\nPress Enter to exit...") 
+    # ----------------------
 
 if __name__ == "__main__":
     main()
